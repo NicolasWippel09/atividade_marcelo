@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: white;
+    border: 1px solid #ccc;
+}
+
+nav {
+    background: #333;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    margin-right: 10px;
+    background-color: #555;
+    display: inline-block;
+}
+
+nav a.active {
+    background-color: #0066cc;
+}
+
+.content {
+    padding: 30px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #0066cc;
+    padding-bottom: 10px;
+}
+
+.members-list {
+    list-style: none;
+    padding: 20px;
+}
+
+.members-list li {
+    background: #f9f9f9;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.aluno-card {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.aluno-card h2 {
+    color: #0066cc;
+    margin-bottom: 15px;
+}
+
+.aluno-card p {
+    margin: 10px 0;
+}
+
+.aluno-info {
+    background: white;
+    padding: 15px;
+    border: 1px solid #eee;
+    margin-top: 15px;
+}
+
+.aluno-info strong {
+    font-weight: bold;
+    min-width: 120px;
+    display: inline-block;
+}
+
+.error-container {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.error-container h1 {
+    color: #cc0000;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.error-container p {
+    margin: 15px 0;
+    color: #666;
+}
